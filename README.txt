@@ -9,6 +9,8 @@
 
 	==================================================
 
+	import "rc34"
+
 	Generate a new key from the passphrase
 	newkey, err := rc34.NewCipher([]byte)
 
